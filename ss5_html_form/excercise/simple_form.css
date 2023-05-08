@@ -1,0 +1,33 @@
+html{
+    background-color: aquamarine;
+}
+form{
+    width: 350px;
+    height: 240px;
+    background-color: white;
+}
+label{
+    width:70px;
+    float: left;
+    color: blue;
+}
+h2{
+    margin: 5px 5px 5px 5px;
+    background-color: #d61b06;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+table{
+    color: orange;
+}
+#Email label{
+    position: relative;
+    left: 21px;
+}
+#button{
+    text-align: center;
+}
+#name , #Email  , table{
+    margin-left: 20px;
+}

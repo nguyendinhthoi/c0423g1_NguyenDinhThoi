@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration_form</title>
+</head>
+<body>
+<style>
+    h2{
+        color: blue;
+        background-color: greenyellow;
+        margin: 5px;
+        padding: 5px;
+    }
+    div{
+        padding: 5px;
+    }
+    label{
+        width: 100px;
+        float: left;
+        color: blue;
+    }
+    body{
+        width: 300px;
+        height: 150px;
+    }
+    form{
+        background-color: goldenrod;
+    }
+
+    #button{
+        margin: 0 0 0 120px;
+    }
+    .address{
+        height: 50px;
+    }
+    .date{
+        width: 100px;
+    }
+
+</style>
+<link rel="stylesheet" href="simple_form_p2.css">
+<form action="simple_form_p2.html">
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+    <div>
+            <label>Họ và tên</label>
+        <input type="text" name="yourname" class="name">
+    </div>
+    <div>
+            <label>Ngày sinh</label>
+        <input type="text"name="date" class="date">
+    </div>
+    <div>
+            <label>Giới tính</label>
+        <input type="radio" name="gender" class="gender" >Nam
+        <input type="radio" name="gender" class="gender" >Nữ
+    </div>
+    <div>
+            <label>Địa chỉ</label>
+        <input type="text"name="address" class="address">
+    </div>
+    <div>
+            <label>Lớp</label>
+        <select name="grade" id="grade">
+            <option value="selectgrade">---Chọn lớp---</option>
+            <option value="ten">10</option>
+            <option value="eleven">11</option>
+            <option value="twelve">12</option>
+        </select>
+    </div>
+    <div>
+            <label>Email</label>
+        <input type="text" name="email" class="mail">
+    </div>
+    <div>
+            <label>Điện thoại</label>
+        <input type="text" name="phone" class="phone">
+    </div>
+    <div id="button">
+        <input type="submit" name="submit" class="submit" value="Đăng ký">
+        <input type="reset" name="reset" class="reset" value="Nhập lại">
+    </div>
+</form>
+
+</body>
+</html>

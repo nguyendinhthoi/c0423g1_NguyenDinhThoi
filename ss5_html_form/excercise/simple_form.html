@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+<style>
+    #Email
+    html{
+        background-color: aquamarine;
+    }
+    form{
+        width: 350px;
+        height: 240px;
+        background-color: white;
+    }
+    label{
+        width:70px;
+        float: left;
+        color: blue;
+    }
+    h2{
+        margin: 5px 5px 5px 5px;
+        background-color: #d61b06;
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }
+    table{
+        color: orange;
+    }
+    #Email label{
+        position: relative;
+        left: 21px;
+    }
+    #button{
+        text-align: center;
+    }
+    #name , #Email  , table{
+        margin-left: 20px;
+    }
+</style>
+<link rel="stylesheet" href="simple_form.css">
+<form action="simple_form.html" method="get">
+    <h2>SỞ THÍCH CỦA BẠN</h2>
+    <div id="name">
+        <label>Họ và tên</label>
+        <input type="text" name="yourname" class="info"><br><br>
+    </div>
+    <div id="Email">
+        <label>Email</label>
+        <input type="text" name="email" class="info"><br><br>
+    </div>
+    <table>
+        <tr>
+            <td style="color: blue">Sở thích</td>
+            <td><input type="checkbox" name="hobby">Thể thao</td>
+            <td><input type="checkbox" name="hobby">Âm nhạc</td>
+            <td><input type="checkbox" name="hobby">Đọc sách</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby">Lướt web</td>
+            <td><input type="checkbox" name="hobby">Chơi game</td>
+            <td><input type="checkbox" name="hobby">Điện ảnh</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby">Du lịch</td>
+        </tr>
+    </table>
+    <br>
+    <div id="button">
+        <input type="submit" name="subbmit" value="Gửi thông tin">
+        <input type="reset" name="reset" value="Nhập lại">
+    </div>
+</form>
+</body>
+</html>

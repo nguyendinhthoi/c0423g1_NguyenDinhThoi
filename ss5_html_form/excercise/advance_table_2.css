@@ -1,0 +1,34 @@
+
+small{
+    color: black;
+}
+tr, td {
+    border: darkgray 1px solid;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+.VN, .VN tr,.VN td{
+    background-color: gold;
+    color: white;
+    border: none;
+}
+.EN, .EN tr, .EN td {
+    border: none;
+}
+
+.CN{
+    color: red;
+}
+.SAT{
+    color: blue;
+}
+.VN tr , .VN td{
+    border: white 1px solid;
+}
+
+

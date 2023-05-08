@@ -1,0 +1,16 @@
+table tr td{
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+  }
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto  ;
+}
+.black {
+    background-color: black;
+}
+.white{
+    background-color: white;
+}

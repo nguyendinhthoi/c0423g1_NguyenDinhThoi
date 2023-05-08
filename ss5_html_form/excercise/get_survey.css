@@ -1,0 +1,48 @@
+div{
+    margin: 10px;
+
+}
+label{
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
+#age{
+    width: 200px;
+}
+#income{
+    width: 200px;
+}
+#top{
+    border-bottom: solid 1px darkgray;
+}
+#pay{
+    width: 30px;
+}
+.DC{
+    position: relative;
+    bottom: 17px;
+    padding-left: 6px;
+}
+#features{
+    position: relative;
+    bottom: 30px;
+}
+.features{
+    height: 100px;
+    width: 100%;
+}
