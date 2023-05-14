@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="ready()">
+<img id="nobita" src="https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2022/09/anh-nobita.jpg?ssl=1"
+     style="position: absolute; left:0;top:0 " height="200" width="150"/>
+<script>
+    function goup() {
+        let element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    }
+    function down() {
+        let element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    }
+    const left = () => {
+        let element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    }
+    function right() {
+        let element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+    }
+​
+        function move(nbt) {
+            console.log(nbt.keyCode)
+            switch (nbt.keyCode) {
+                ​
+                case 37:
+                    left();
+                    break;
+                case 39:
+                    right();
+                    break;
+                case 38:
+                    goup();
+                    break;
+                case 40:
+                    down();
+                    break;
+            }
+        }
+    function ready() {
+        window.addEventListener('keydown' , move);
+​
+    }
+</script>
+</body>
+</html>
