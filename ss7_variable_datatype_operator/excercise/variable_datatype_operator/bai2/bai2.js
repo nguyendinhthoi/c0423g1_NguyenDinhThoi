@@ -1,6 +1,6 @@
-doC = prompt('Nhập độ C')
+doc = prompt('Nhập độ C');
 
-let C = parseInt(doC)
-let F= (C*1.8)+32
+let c = parseInt(doc);
+let f = (c * 1.8) + 32;
 
-document.write("Độ F của bạn là:" + F)
+document.write("Độ F của bạn là:" + f);

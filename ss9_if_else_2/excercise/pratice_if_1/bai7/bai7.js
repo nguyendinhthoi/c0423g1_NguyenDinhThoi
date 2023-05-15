@@ -1,11 +1,11 @@
-let sophut = +prompt(`Hay nhap so phut ban goi`)
-sotienbatbuoc = 25000
-let sotien
-if (sophut <= 50) {
-    sotien = sotienbatbuoc + sophut * 600
-} else if (sophut <= 150) {
-    sotien = sotienbatbuoc + sophut * 400
+let soPhut = +prompt(`Hay nhap so phut ban goi`);
+soTienBatBuoc = 25000;
+let soTien;
+if (soPhut <= 50) {
+    soTien = soTienBatBuoc + soPhut * 600;
+} else if (soPhut <= 150) {
+    soTien = soTienBatBuoc + soPhut * 400;
 } else {
-    sotien = sotienbatbuoc + sophut * 200
+    soTien = soTienBatBuoc + soPhut * 200;
 }
-alert(`So tien cuoc cua ban la : `  + sotien + `VND`)
+alert(`So tien cuoc cua ban la : ` + soTien + `VND`);

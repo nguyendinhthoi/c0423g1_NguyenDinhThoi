@@ -1,13 +1,13 @@
-let a = +prompt(`Hay nhap so kWh cua ban`)
+let a = +prompt(`Hay nhap so kWh cua ban`);
 if (a < 200) {
-    giatien = a * 1734
-    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`)
+    giatien = a * 1734;
+    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`;
 } else if (a < 400) {
-    giatien = a * 2536
-    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`)
+    giatien = a * 2536;
+    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`);
 } else {
-    giatien = a * 2927
-    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`)
+    giatien = a * 2927;
+    alert(`ban da su dung ` + a + `kWh` + `. So tien ban can thanh toan la ` + giatien + `VND`);
 }
 
 // switch (a) {
