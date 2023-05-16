@@ -16,7 +16,7 @@ switch (b) {
         alert(`Tien lai ban can dong thang dau la : ` + laiThangDau + ` va nhung thang con lai la : ` + laiCacThangConLai);
         break;
     case 240 :
-        laiThangDau = (a * 9 / 100) / 12
+        laiThangDau = (a * 9 / 100) / 12;
         laiCacThangConLai = ((a - tienGocPhaiTraHangThang * 13 / 100)) / 12;
         alert(`Tien lai ban can dong thang dau la : ` + laiThangDau + ` va nhung thang con lai la : ` + laiCacThangConLai);
         break;
