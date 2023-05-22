@@ -29,7 +29,6 @@ do {
         }
     }
     if (count === 2) {
-        ;
         document.write(number + `<br>`);
         countUoc++;
     }
