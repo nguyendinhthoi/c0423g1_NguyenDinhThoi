@@ -1,4 +1,4 @@
-class rectangle {
+class Rectangle {
     constructor(height, width) {
         this.height = height;
         this.width = width;
@@ -36,7 +36,7 @@ class rectangle {
 let a = +prompt(`Let enter any height number `);
 let b = +prompt(`Let enter any width number `);
 
-let newRectangle = new rectangle(a, b);
+let newRectangle = new Rectangle(a, b);
 
 
 document.write(newRectangle.toString())

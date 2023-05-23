@@ -1,4 +1,4 @@
-class temperator {
+class Temperator {
     constructor(C) {
         this.C = C;
     };
@@ -17,5 +17,5 @@ class temperator {
 }
 
 let a = +prompt(`Let enter degrees C`);
-let degreeC = new temperator(a);
+let degreeC = new Temperator(a);
 document.write(degreeC.toString());
