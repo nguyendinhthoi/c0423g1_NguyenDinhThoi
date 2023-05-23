@@ -2,7 +2,7 @@
 // Nếu là nguyên dương trả về true, ngược lại trả về false.
 let a = +prompt(`Let enter any number ( greater than 0)`);
 
-function checknum(num) {
+function checkNumber(num) {
     if (num > 0) {
         return `You're handsome!~~~~ <3`;
     } else {
@@ -10,4 +10,4 @@ function checknum(num) {
     }
 }
 
-alert(checknum(a));
+alert(checkNumber(a));
