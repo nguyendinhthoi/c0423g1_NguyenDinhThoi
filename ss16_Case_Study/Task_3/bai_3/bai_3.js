@@ -1,7 +1,7 @@
 let numerators = [5, 2, 5];
-let denominators = [6, 3, 4];
+let denominators = [6, 3, 4]
 let c;
-let index;
+let index = 0;
 let max = numerators[0] / denominators[0];
 for (let i = 1; i < numerators.length; i++) {
     c = numerators[i] / denominators[i];

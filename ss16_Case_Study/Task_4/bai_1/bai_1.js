@@ -20,4 +20,3 @@ document.write(`<br> Chữ dài nhất trong chuỗi là ${max} `);
 
 
 
-
